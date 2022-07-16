@@ -1,0 +1,100 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.sky{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* animation: skymove linear 2s infinite; */
+
+}
+@keyframes skymove{
+    100%{
+        transform: translateY(2px);
+     }  } 
+ .track{
+    background-image: url('track.png');
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0px;
+    width: 1000vw;
+    height: 30vh;
+    z-index: 1;
+    animation: trackon linear 3s infinite;
+    
+}
+@keyframes trackon{
+    100%{
+        transform: translateX(-100vw);
+    }
+}
+.tree{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    bottom: 100px;
+    background-image: url('trees.png');
+    background-size: cover;
+}
+ .car{
+    display: flex;
+    width: 320px;
+    height: 100px;
+    position: absolute;
+    bottom: 190px;
+    left: 364px;
+background-image: url('car_body.png');
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 4;
+animation: shake linear 3s infinite;
+}
+@keyframes shake{
+    0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+
+.wheell img{
+    position: absolute;
+    left: 46px;
+    bottom: 0px;
+    height: 60px;
+    width: 60px;
+    animation: rotating linear 0.5s infinite;
+   
+    
+    
+}
+.wheelr img{
+    position: absolute;
+    right: 38px;
+    bottom: 0px;
+height: 60px;
+width: 60px;
+animation: rotating;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes rotating{
+    100%{
+        transform: rotate(360deg);
+    }
+}
