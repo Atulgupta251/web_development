@@ -1,0 +1,27 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex{
+    display: flex;
+}
+.nomargin{
+    margin: 0px;
+    padding: 0px;
+}
+.uppercase{
+    text-transform: uppercase ;
+}
+.justify{
+    justify-content: center;
+    align-items: center;
+}

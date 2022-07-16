@@ -1,0 +1,53 @@
+
+
+nav{
+    background-color: aliceblue;
+    width: 100vw;
+    box-shadow: black 0px 3px 10px;
+    position: fixed;
+}
+
+.left img{
+    width: 5vw;
+}
+
+
+.left ul{
+    list-style: none;
+}
+.left ul li{
+   padding: 0.5vw 1vw;
+   margin: 0.01vw 0.2vw;
+}
+.right{
+   /* padding: 2px 2px 2px 500px; */
+   padding: 0.1vh 0.1vh 0.1vh 20vw;
+}
+.right span{
+    margin: auto 1vh;
+   
+}
+.right span input{
+    padding: 0.5vw 2vw;
+    width: 20vw;
+    border-radius: 6px;
+   
+}
+    .right div img{
+        width: 3vw;
+    }
+    .right div{
+        margin: 0.6vw 1vw; 
+    }
+.mid img{
+    width: 90vw;
+    margin: 12vh 0vw 0vw 4vw;
+}
+.mid1-5 img{
+    width: 100vw;
+}
+.mid2 img{
+    width: 20vw;
+    margin: 0px;
+    padding: 0px;
+}
