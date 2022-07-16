@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym project</title>
+    <style>
+  body{
+      margin: 0px;
+      padding: 0px;
+      background-image: url('imgages/background.jpg');
+background-size: 100%;
+opacity: 1;
+  }
+.left{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: inline-block;
+/* border: 2px solid black; */
+}
+.left img{
+    width: 50px;
+}
+.mid{text-align: center;
+    display: block;
+    width: 37%;
+    margin: 10px auto;
+    background-color: black;
+
+    border-radius: 12px;
+    /* border: 2px solid rgb(202, 33, 33); */
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    /* border: 2px solid rgb(78, 214, 24); */
+}
+
+.items{
+    display: inline-block;
+    
+}
+.items li{
+    display: inline-block;
+    font-size: 25px   ;
+    padding: 0px 3px;
+    margin: 7px;
+}
+.items li a{
+    color: white;
+    text-decoration: none;
+}
+.items li a:hover{
+   text-decoration: underline;
+   color: blue;
+}
+.btn{
+    margin: 0px 5px;
+    padding: 3px 6px;
+    color: white;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid black;
+    margin: 100px 470px 20px 150px;
+    padding: 40px 40px;
+    width: 30%;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+}
+.groups{
+    margin: 3px auto;
+    width: 30%;
+    border-radius: 5px;
+} 
+.container button{
+    display: block;
+    margin-left: 150px ;
+    margin-right: 50px;
+    width: 40%;
+}
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="imgages/logo.png" alt="">
+        </div>
+        <div class="mid">
+            <ul class="items">
+                <li><a href="#" target="_blank">home</a></li>
+                <li><a href="#">zym trainer</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">register</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">contact us</button><button class="btn">more about us</button>
+        </div>
+        <div class="container">
+           <h1>join the zym in my area</h1>
+           <form action="#">
+               <div class="groups">
+                   <input type="text" placeholder="name">
+               </div>
+               <div class="groups">
+                   <input type="number" placeholder="mob number">
+               </div>
+               <div class="groups">
+                   <input type="email" placeholder="email">
+               </div>
+              <button class="btn">submit</button>
+           </form>
+        </div>
+    </header>
+</body>
+</html>
