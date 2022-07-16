@@ -1,0 +1,25 @@
+.center{
+    margin: 0px auto;
+    text-align: center;
+}
+.container{
+    background-color: rgb(195, 250, 255);
+    height: 50vh;
+    width: 50vh;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    margin: 2px;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.row input{
+    padding: 6px;
+    margin:  14px 8px;
+}
